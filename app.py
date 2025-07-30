@@ -5,7 +5,7 @@ import shap
 import matplotlib.pyplot as plt
 import plotly.express as px
 import os
-from utils.helpers import parse_pdf, parse_excel, recommend_deal, generate_pdf_report, gpt_commentary
+from helpers import parse_pdf, parse_excel, recommend_deal, generate_pdf_report, gpt_commentary
 
 st.set_page_config(page_title="M&A Deal Analyzer+", layout="wide")
 st.title("🤝 M&A Deal Analyzer + AI Commentary")
